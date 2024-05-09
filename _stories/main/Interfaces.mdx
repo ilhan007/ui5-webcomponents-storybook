@@ -1,0 +1,32 @@
+import { Meta } from "@storybook/blocks";
+
+import { Footer } from "@sb/components/footer/Footer.tsx";
+import {
+	Title
+} from "@storybook/addon-docs";
+
+<Meta name="Interfaces" />
+
+<header>
+	<span className="sb-ui5-title">
+	<Title>Interfaces</Title>
+	</span>
+</header>
+
+| Name | Description | Implementations |
+| --- | --- | --- |
+| <b>IAvatarGroupItem</b> | Interface for components that represent an avatar and may be slotted in numerous higher-order components such as `ui5-avatar-group` | @ui5/webcomponents/Avatar
+| <b>IButton</b> | Interface for components that may be used as a button inside numerous higher-order components | @ui5/webcomponents/Button
+| <b>IColorPaletteItem</b> | Interface for components that may be used inside a `ui5-color-palette` or `ui5-color-palette-popover` | @ui5/webcomponents/ColorPaletteItem
+| <b>IComboBoxItem</b> | Interface for components that may be slotted inside a `ui5-combobox` | @ui5/webcomponents/ComboBoxGroupItem<br /><br />@ui5/webcomponents/ComboBoxItem
+| <b>IIcon</b> | Interface for components that represent an icon, usable in numerous higher-order components | @ui5/webcomponents/Icon
+| <b>IInputSuggestionItem</b> | Interface for components that represent a suggestion item, usable in `ui5-input` | @ui5/webcomponents/SuggestionGroupItem<br /><br />@ui5/webcomponents/SuggestionItem
+| <b>IMultiComboBoxItem</b> | Interface for components that may be slotted inside a `ui5-multi-combobox` as items | @ui5/webcomponents/MultiComboBoxGroupItem<br /><br />@ui5/webcomponents/MultiComboBoxItem
+| <b>ISegmentedButtonItem</b> | Interface for components that may be slotted inside `ui5-segmented-button` as items | @ui5/webcomponents/SegmentedButtonItem
+| <b>IOption</b> | Interface for components that may be slotted inside `ui5-select` as options | @ui5/webcomponents/Option<br /><br />@ui5/webcomponents/SelectMenuOption
+| <b>ITab</b> | Interface for components that may be slotted inside `ui5-tabcontainer` as items
+
+**Note:** Use directly `ui5-tab` or `ui5-tab-seprator`. Implementing the interface does not guarantee that the class can work as a tab. | @ui5/webcomponents/Tab<br /><br />@ui5/webcomponents/TabSeparator
+| <b>ITableRow</b> | Interface for components that may be slotted inside a `ui5-table` as rows | @ui5/webcomponents/TableGroupRow<br /><br />@ui5/webcomponents/TableRow
+
+<Footer />
